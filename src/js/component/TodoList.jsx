@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import '/workspace/react-hello/src/styles/index.css'
 
 const TodoList = () => {
@@ -31,7 +31,6 @@ const TodoList = () => {
 	<button id={index} className="button btn-close justify-content-end"  aria-label="Close" onClick={deleteTask}></button>
 	</li>
 	})
-	console.log(3*4)
 	
 	return (
 		<div>
