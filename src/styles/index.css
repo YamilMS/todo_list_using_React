@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background: rgb(241, 239, 239);
+}
+
+#app{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+/*
+.button{
+    display: none;
+}
+
+*/
