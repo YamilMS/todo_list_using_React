@@ -23,9 +23,12 @@ body{
     width: 50%;
 }
 
-/*
+
 .button{
     display: none;
 }
 
-*/
+
+li:hover>.button{
+    display: block;
+}
