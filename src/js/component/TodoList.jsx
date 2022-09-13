@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import '/workspace/react-hello/src/styles/index.css'
+import '/src/styles/index.css'
 
 const TodoList = () => {
 
